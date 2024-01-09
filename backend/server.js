@@ -4,7 +4,7 @@ const cors=require('cors');
 const dotenv=require('dotenv');
 const chats=require('./chats');
 //environmental config
-dotenv.config();
+dotenv.config()
 
 //port config
 const port=process.env.PORT||5000;
